@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body class="font-['Plus Jakarta Sans', sans-serif] bg-[#0E1424]">
+  <header class=" bg-[#0E1424]">
+    <nav class="container mx-auto pt-2 sticky top-1 z-10 ">
+      <div class="navbar">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>HowTo</a></li>
+              <li><a>UseCases</a></li>
+              <li><a>Pricing</a></li>
+            </ul>
+          </div>
+          <!-- <a class="btn btn-ghost normal-case text-xl"></a> -->
+          <img src="https://copygen.themenio.com/images/logo.png" alt="">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li tabindex="0">
+              <details>
+                <summary>Parent</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>HowTo</a></li>
+            <li><a>UseCases</a></li>
+            <li><a>Pricing</a></li>
+            <li tabindex="0">
+              <details>
+                <summary>Parent</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+
+            <li class="list-none ml-96"><a>Sign In</a></li>
+            <li class="list-none mt-1"><i class="fa-solid fa-lightbulb"></i></li>
+
+          </ul>
+        </div>
+        <div class="navbar-end   px-10 rounded-2xl">
+          <a class="btn hover:bg-[#5C4DCF] bg-transparent rounded-2xl px-10 border-[#5C4DCF]">Get Started</a>
+        </div>
+      </div>
+    </nav>
+    <section class="">
+      <div class="text-center mt-20">
+        <h1 class="text-7xl">AI Writer for Creating</h1>
+        <p class="pt-5">AI Copywriting is revolutionizing the way content is created. AI can create content <br> for
+          blogs, articles,
+          websites, social media and more.</p>
+        <div class="pt-8 ">
+          <!-- <a class="btn hover:bg-[#5C4DCF] bg-[#5C4DCF] rounded-2xl px-10 ">Get Started</a> -->
+
+          <div class=" p-2 text-center  rounded-full">
+            <button class="w-72 rounded-full btn btn-primary" >Bill Monthly</button>
+            
+          </div>
+
+
+        </div>
+        <p class="pt-2">No credit card required</p>
+      </div>
+
+      <div class="relative mt-10 ">
+        <div class=" w-full lg:w-2/4 mx-auto ">
+          <!-- <img class="rounded-2xl  " src="./images/header_image/c.jpg" alt=""> -->
+
+
+          <div class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
+            <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800">
+              <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen.png"
+                class="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl" alt="">
+              <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen-dark.png"
+                class="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg" alt="">
+            </div>
+          </div>
+          
+          <div
+            class="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl rounded-t-sm h-[17px] max-w-[351px] md:h-[21px] md:max-w-[597px]">
+            <div
+              class="absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-gray-800">
+            </div>
+          </div>
+        </div>
+        <div class="hidden absolute top-0 start-72 mt-2 lg:block ">
+          <div class="mx-auto ">
+            <img class="rounded-full transition duration-700 ease-in-out  hover:scale-125"
+              src="./images/header_image/a.jpg" alt="">
+          </div>
+          <div class="bg-[#1C263B] p-2 mt-2 text-white text-opacity-75 rounded-md text-center">
+            <p>Freelancer</p>
+          </div>
+        </div>
+        <div class="hidden absolute top-0 end-72 -mt-10 lg:block ">
+          <div class="mx-auto ">
+            <img class="rounded-full transition duration-700 ease-in-out  hover:scale-125"
+              src="./images/header_image/b.jpg" alt="">
+          </div>
+          <div class="bg-[#1C263B] p-2 mt-2 text-white text-opacity-75 rounded-md text-center">
+            <p>Freelancer</p>
+          </div>
+        </div>
+        <div class="hidden absolute top-64 end-40 lg:block ">
+          <div class="mx-auto ">
+            <img class="rounded-full transition duration-700 ease-in-out  hover:scale-125"
+              src="./images/header_image/c (1).jpg" alt="">
+          </div>
+          <div class="bg-[#1C263B] p-2 mt-2 text-white text-opacity-75 rounded-md text-center">
+            <p>Freelancer</p>
+          </div>
+        </div>
+        <div class="hidden absolute top-3/4 start-40 mt-8 lg:block ">
+          <div class="mx-auto ">
+            <img class="rounded-full transition duration-700 ease-in-out  hover:scale-125"
+              src="./images/header_image/d.jpg" alt="">
+          </div>
+          <div class="bg-[#1C263B] p-2 mt-2 text-white text-opacity-75 rounded-md text-center">
+            <p>Freelancer</p>
+          </div>
+        </div>
+      </div>
+      <p class="text-center text-white font-semibold mt-16">Trusted by 60,000+ freelancers, marketing teams and
+        agencies.</p>
+      <div>
+        <section class="py-10 mt-24 sm:py-16">
+          <div class="px-4 mx-auto items-center mr-7 max-w-7xl sm:px-6 lg:px-8">
+            <div class="grid items-center grid-cols-1 gap-10 sm:gap-y-16 sm:grid-cols-3 xl:grid-cols-6">
+              <div>
+                <img class="object-contain w-auto mx-auto h-14" src="./images/company/72-b-white.png" alt="" />
+              </div>
+
+              <div>
+                <img class="object-contain w-auto mx-auto h-14" src="./images/company/72-c-white.png" alt="" />
+              </div>
+
+              <div>
+                <img class="object-contain w-auto mx-auto h-14" src="./images/company/72-d-white.png" alt="" />
+              </div>
+
+              <div>
+                <img class="object-contain w-auto mx-auto h-14" src="./images/company/72-e-white.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="bg-[#0E1424]">
+      <div class="text-center">
+        <h1 class="text-4xl">Superpower with AI Writer</h1>
+        <p class="pt-5">Let our AI assist with most time consuming to write blog articles, product <br> descriptions and
+          more.</p>
+      </div>
+      <div>
+        <div>
+
+
+        </div>
+      </div>
+    </section>
+    <section class="py-10 sm:py-16 lg:py-24 bg-[#0E1424]">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 gap-12 text-center sm:grid-cols-2 md:grid-cols-3 lg:gap-y-16">
+
+          <div
+            class=" bg-[#181D2D] rounded-3xl p-4 border-t border-[#5FBFDE] border-l border-[#5FBFDE] hover:border border-[#5FBFDE]">
+            <h3 class="mt-2 text-lg font-semibold text-white">Secured Payments</h3>
+            <p class="mt-4 mb-8 text-base text-white ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet
+              sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+
+          <div class=" bg-[#181D2D] rounded-3xl p-4 hover:border border-[#5FBFDE]">
+            
+            <h3 class="mt-2 text-lg font-semibold text-white">Secured Payments</h3>
+            <p class="mt-4 mb-8 text-base text-white ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet
+              sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+
+          <div class=" bg-[#181D2D] rounded-3xl p-4 hover:border border-[#5FBFDE]">
+            
+            <h3 class="mt-2 text-lg font-semibold text-white">Secured Payments</h3>
+            <p class="mt-4 mb-8 text-base text-white ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet
+              sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+
+          <div class=" bg-[#181D2D] rounded-3xl p-4 hover:border border-[#5FBFDE]">
+            
+            <h3 class="mt-2 text-lg font-semibold text-white">Secured Payments</h3>
+            <p class="mt-4 mb-8 text-base text-white ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet
+              sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+
+          <div class=" bg-[#181D2D] rounded-3xl p-4 hover:border border-[#5FBFDE]">
+          
+            <h3 class="mt-2 text-lg font-semibold text-white">Secured Payments</h3>
+            <p class="mt-4 mb-8 text-base text-white ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet
+              sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+
+          <div
+            class=" bg-[#181D2D] rounded-3xl p-4 border-r border-[#5FBFDE] border-b border-[#5FBFDE] hover:border border-[#5FBFDE]">
+           
+            <h3 class="mt-2 text-lg font-semibold text-white">Secured Payments</h3>
+            <p class="mt-4 mb-8 text-base text-white ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet
+              sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+      <section class="py-20 bg-[#0E1424]">
+        <div class="max-w-7xl px-4 mx-auto text-left md:text-center">
+          <div class="px-0 py-20 bg-transparent border border-gray-100 card card-body md:px-4 md:bg-white">
+            <div class="w-full mx-auto md:w-3/5">
+              <h1 class="mb-2 text-5xl font-bold leading-tight text-gray-900 md:font-extrabold">$9<span class="text-2xl font-medium text-gray-600"> per month</span></h1>
+              <p class="mb-6 text-lg text-gray-600 md:text-xl">
+                One plan for any organization—from startups to Fortune 500s. We offer 50% off of for all students and universities. Please get in touch with us and provide proof of your status. We’ll get
+                back to you with a discount.
+              </p>
+              <div class="justify-center block space-x-0 space-y-2 md:flex md:space-x-2 md:space-y-0">
+                <a href="#" class="w-full btn btn-dark btn-xl md:w-auto">Get Started</a>
+                <a href="#" class="w-full btn btn-light btn-xl md:w-auto">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+     <section class="bg-[#0E1424] mb-10">
+      <section class="flex flex-col max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 md:flex-row md:h-48">
+        <div class="md:flex md:items-center md:justify-center md:w-1/2 md:bg-gray-700 md:dark:bg-gray-800">
+            <div class="px-6 py-6 md:px-8 md:py-0">
+                <h2 class="text-lg font-bold text-gray-700 dark:text-white md:text-gray-100">Sign Up For <span class="text-blue-600 dark:text-blue-400 md:text-blue-300">Project</span> Updates</h2>
+    
+                <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 md:text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur obcaecati odio</p>
+            </div>
+        </div>
+    
+        <div class="flex items-center justify-center pb-6 md:py-0 md:w-1/2">
+            <form>
+                <div class="flex flex-col p-1.5 overflow-hidden border rounded-lg dark:border-gray-600 lg:flex-row dark:focus-within:border-blue-300 focus-within:ring focus-within:ring-opacity-40 focus-within:border-blue-400 focus-within:ring-blue-300">
+                    <input class="px-6 py-2 text-gray-700 placeholder-gray-500 bg-white outline-none dark:bg-gray-800 dark:placeholder-gray-400 focus:placeholder-transparent dark:focus:placeholder-transparent" type="text" name="email" placeholder="Enter your email" aria-label="Enter your email">
+    
+                    <button class="px-4 py-3 text-sm font-medium tracking-wider text-gray-100 uppercase transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:bg-gray-600 focus:outline-none">subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+     </section>
+      
+      
+  
+  
+    
+  </main>
+
+
+  <footer class="bg-white dark:bg-gray-900 pt-16">
+    <div class="container px-6 py-12 mx-auto">
+        <div class="md:flex md:-mx-3 md:items-center md:justify-between">
+            <h1 class="text-xl font-semibold tracking-tight text-gray-800 md:mx-3 xl:text-2xl dark:text-white">Subscribe our newsletter to get update.</h1>
+            
+            <div class="mt-6 md:mx-3 shrink-0 md:mt-0 md:w-auto">
+                <a href="#" class="inline-flex items-center justify-center w-full px-4 py-2 text-sm text-white duration-300 bg-gray-800 rounded-lg gap-x-3 hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                    <span>Sign Up Now</span>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        
+        <hr class="my-6 border-gray-200 md:my-10 dark:border-gray-700">
+
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div>
+                <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Home</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Who We Are</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Our Philosophy</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-semibold text-gray-800 dark:text-white">Industries</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Retail & E-Commerce</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Information Technology</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Finance & Insurance</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-semibold text-gray-800 dark:text-white">Services</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Translation</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Proofreading & Editing</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Content Creation</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-semibold text-gray-800 dark:text-white">Contact Us</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">+880 768 473 4978</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">info@merakiui.com</a>
+                </div>
+            </div>
+        </div>
+        
+        <hr class="my-6 border-gray-200 md:my-10 dark:border-gray-700">
+        
+        <div class="flex flex-col items-center justify-between sm:flex-row">
+            <a href="#">
+                <img class="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="">
+            </a>
+
+            <p class="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-300">© Copyright 2021. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+
+</html>
